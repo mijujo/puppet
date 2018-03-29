@@ -1,7 +1,7 @@
 # Change to puppet manifest
-file { '/tmp/hi.txt':
+file { '/tmp/hello.txt':
   ensure  => file,
-  content => "#This file is managed by Puppet - manual edits will be lost\n\nhello, world\n",
+  content => "#This file is managed by Puppet - manual edits will be lost\n\nhi, world\n",
 }
 
 # Set up regular Puppet runs
